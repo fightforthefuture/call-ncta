@@ -109,10 +109,10 @@ p {
     color: #000;
     font-weight: 300;
 }
-p a {
+h1 a, p a {
     color: #900;
 }
-p a:hover {
+h1 a:hover, p a:hover {
     color: #500;
 }
 p b {
