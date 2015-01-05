@@ -1,0 +1,151 @@
+---
+---
+<html lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+    <script src="//cdn.optimizely.com/js/2116911387.js"></script>
+    <meta name="description" content="We found the phone numbers and email addresses of Comcast's top executives and lobbyists. Let's tell them to stop lying!">
+    <meta name="author" content="Fight for the Future">
+    <meta property="og:title" content="Here's why Comcast's top executives are freaking out."/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.callcomcast.org/"/>
+    <meta property="og:image" content="https://www.battleforthenet.com/images/share_images/urgent.png"/>
+    <meta property="og:site_name" content="Call Comcast's top lobbyists!"/>
+    <meta property="fb:admins" content="612663871"/>
+    <meta property="og:description" content="We found the phone numbers and email addresses of Comcast's top executives and lobbyists. Let's tell them to stop lying!"/>
+    <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+    <link href="css/site.css" rel="stylesheet">
+    <title>*** RING, RING... ***</title>
+    <link rel="stylesheet" href="css/rain.css" type="text/css" />
+    
+    <script type="text/javascript" src="js/mootools-1.2.4-core.js"></script>
+    <script type="text/javascript" src="js/mootools-1.2.4.4-more.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript">
+        $.noConflict();
+    </script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/rain.js"></script>
+    <link rel="icon" type="image/png" href="images/fav.png">
+    <script type="text/javascript">{% include share_tweet_text.js %}</script>
+</head>
+<body>
+    <div id="rain"></div>
+    <div id="main">
+        <div id="content">
+            {% include cta.html %}
+            <div class="split clear">
+                <div class="left">
+                    <h2>Call them!</h2>
+                    <p class="description">
+                        Enter your phone number and we'll connect you to a Big Cable executive or lobbyist at random. Tell them to stop buying politicians and spreading misleading advertisements.</p>
+                    <form id="phoneForm" class="clear phoneForm"><input id="phone" name="phone" placeholder="Enter your phone number"/><button type="button" id="call_button">Get the script!</button></form>
+                </div>
+                <div class="right">
+                    <h2>Email them!</h2>
+                    <p class="description">
+                        We'll email you our full list of cable industry executives and lobbyists with links to email them individually or all at once.
+                        Ask them to stop ruining the Internet!
+                    </p>
+                    <form id="emailFormMain" class="clear emailFormMain"><input id="email_main" name="email_main" placeholder="Enter your email address"/><button type="button" id="email_button_main">Email them!</button></form>
+                    <p class="subscribe_info">
+                        <a href="https://www.fightforthefuture.org" target="_blank">Fight for the Future</a> <!--and <a href="http://www.demandprogress.org" target="_blank">Demand Progress</a>--> will contact you with campaign updates. <a href="https://www.battleforthenet.com/privacy" target="_blank">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+            
+            {% include disclosure.html %}
+            <a name="ads"></a>
+            <h3>This is what millions of dollars of lies looks like.</h3>
+            <a href="images/screenshot_annotated_captioned.png" target="_blank"><img class="screenshot" src="images/screenshot_annotated_nocaption.png"/></a>
+            <h3 class="yay">(this is what real grassroots activism looks like :)</h3>
+            <p>
+                Comcast and its teams of high-priced lobbyists are flooding Washington
+                DC with misleading ads, trying to say that net neutrality will increase
+                taxes. This has already been
+                <a href="http://www.wyden.senate.gov/news/blog/post/protecting-net-neutrality-will-not-invalidate-internet-tax-freedom-act" target="_blank">thoroughly debunked</a>,
+                but their goal is only to spread Fear, Uncertainty and Doubt (FUD).
+
+            </p>
+            <a class="btn facebook" target="_blank" href="https://www.facebook.com/sharer.php?u=https://www.callthefcc.com">Share on Facebook</a>
+            <a class="btn twitter main" target="_blank" href="#">Share on Twitter</a>
+            <div class="clear"></div>
+            <!--
+            <a class="twitter-timeline"  href="https://twitter.com/hashtag/CallTheFCC" data-widget-id="527826521000390657">#CallTheFCC Tweets</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            <hr/>
+            -->
+            <a href="https://www.fightforthefuture.org/" target="_blank"><img class="logo" src="images/fftf_logo.png"/></a>
+            <!--
+            <a href="https://demandprogress.com/" target="_blank"><img class="logo" src="images/dp_logo.png"/></a>
+            <a href="http://www.credoaction.com/" target="_blank"><img class="logo" src="images/credo_logo.png"/></a>
+            <a href="http://www.democracyforamerica.com/" target="_blank"><img class="logo" src="images/dfa_logo.png"/></a>
+            -->
+            {% include support.html %}
+        </div>
+    </div>
+    <div class="overlay phone">
+        <div class="modal">
+            <div class="inner">
+                <a class="close" href="#">×</a>
+                {% include call_modal_top.html %}
+                {% include call_script.html %}
+
+                <a class="btn facebook" target="_blank" href="https://www.facebook.com/sharer.php?u=https://www.callthefcc.com">Share on Facebook</a>
+                <a class="btn twitter" target="_blank" href="https://twitter.com/intent/tweet?hashtags=CallTheFCC&text=&related=fightfortheftr">
+                    <div class="bubble">
+                        Tweet using hashtag <em>#CallTheFcc</em> to be featured on our Twitter feed!
+                        <div class="arrow-down"></div>
+                    </div>
+                    Share on Twitter
+                </a>
+                <div class="bottom">
+                    <form id="emailForm" class="clear emailForm" method="POST"><input id="email" name="member[email]" placeholder="Enter your email to get the list of cable lobbyists"/><button type="button" id="email_button">Email them!</button></form>
+                    <p class="disclosure"><a href="https://www.fightforthefuture.org" target="_blank">Fight for the Future</a> <!--and <a href="http://www.demandprogress.org" target="_blank">Demand Progress</a>--> will contact you with campaign updates. <a href="https://www.battleforthenet.com/privacy" target="_blank">Privacy Policy</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay email">
+        <div class="modal">
+            <div class="inner">
+                <a class="close" href="#">×</a>
+                <h1>Thanks for participating!</h1>
+                <p>
+                    Check your email. We're sending you our list of cable industry executives and lobbyists,
+                    including email addresses and phone numbers.
+                    There's also a special link that allows you to CC all of them at once. Tell them how you
+                    really feel about net neutrality!
+                </p>
+                <a class="btn facebook" target="_blank" href="https://www.facebook.com/sharer.php?u=https://www.callthefcc.com">Share on Facebook</a>
+                <a class="btn twitter" target="_blank" href="https://twitter.com/intent/tweet?hashtags=CallTheFCC&text=&related=fightfortheftr">
+                    <div class="bubble">
+                        Tweet using hashtag <em>#CallComcast</em> to be featured on our Twitter feed!
+                        <div class="arrow-down"></div>
+                    </div>
+                    Share on Twitter
+                </a>
+                <div class="bottom">
+                    <form id="phoneForm2" class="clear phoneForm2" method="POST"><input id="phone_secondary" name="phone_secondary" placeholder="Enter your phone number to call the FCC!"/><button type="button" id="phone_secondary_button">Call the FCC!</button></div></form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+      var _sf_async_config = { uid: 47331, domain: 'callthefcc.com', useCanonical: true };
+      (function() {
+        function loadChartbeat() {
+          window._sf_endpt = (new Date()).getTime();
+          var e = document.createElement('script');
+          e.setAttribute('language', 'javascript');
+          e.setAttribute('type', 'text/javascript');
+          e.setAttribute('src','//static.chartbeat.com/js/chartbeat.js');
+          document.body.appendChild(e);
+        };
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != 'function') ?
+          loadChartbeat : function() { oldonload(); loadChartbeat(); };
+      })();
+    </script>
+</body>
+</html>
