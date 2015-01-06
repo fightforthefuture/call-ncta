@@ -87,7 +87,7 @@ var rain	=	new Class({
 		}
 
 		img.setStyles({
-			bottom: -img.height+'px',
+			top: -img.height+'px',
 			left:	left + 'px',
 			transform: 'translate(0, 0) rotate(0deg)',
 			zIndex:	img.size
@@ -103,7 +103,7 @@ var rain	=	new Class({
 
 		img.style.transition = 'all ' + (duration / 1000) + 's linear';
 		this.reflow(img);
-		img.style.transform  = 'translate(' + yfloat + 'px, -'+(this.coords.height+img.height)+'px) rotate(-'+rotate+'deg)';
+		img.style.transform  = 'translate(' + yfloat + 'px, '+(this.coords.height+img.height)+'px) rotate(-'+rotate+'deg)';
 		img.expiration = Date.now() + duration + 100;
 
 		this.drops.push(img);
