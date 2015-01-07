@@ -93,10 +93,10 @@ h2 {
 }
 h3 {
     font-size: 1.8em;
-    color: #900;
+    color: #ff2f2f;
 }
 h3.yay {
-    color: #3ed702;
+    color: #1ec67d;
 }
 hr {
     border: 0px;
@@ -202,16 +202,17 @@ form button {
     display: block;
     font-size: 1.3em;
     font-weight: bold;
-    padding: 0px 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     box-sizing: border-box;
     height: 40px;
     line-height: 40px;
     margin: 10px auto;
-    background: #900;
+    background: #d33434;
     color: white;
     border: 0px none;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 60px;
 
 }
 form.emailForm button, form.phoneForm2 button {
@@ -443,4 +444,9 @@ a.btn .bubble em {
 img.screenshot {
     max-width: 100%;
     height: auto;
+}
+
+.split h2{
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 30px;
 }
